@@ -46,7 +46,7 @@ def test_get_longest_digit_count_desc():
     assert get_longest_digit_count_desc([54, 32, 64, 61, 70]) == [54, 32, 64, 61, 70]
     assert get_longest_digit_count_desc([31, 24, 17, 63]) == [31]
     
-    def get_longest_div_k(lst: list[int], k:int) -> list[int]:
+def get_longest_div_k(lst: list[int], k:int) -> list[int]:
     '''
     Determina cea mai lunga subsecventa in care toate elementele sunt divizibile cu k.
     param list: lista de numere; k: numar intreg
