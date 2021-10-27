@@ -71,7 +71,7 @@ def test_get_longest_div_k():
     assert get_longest_div_k([5, 11, 24], 6) == [24]
     assert get_longest_div_k([88, 77, 44, 7], 7) == [77, 7]
     
-    def numar_cifre_prime(n):
+def numar_cifre_prime(n):
     """
     Verifica daca un nr e format doar din cifre prime
     :param n: intreg
